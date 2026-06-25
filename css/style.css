@@ -46,3 +46,26 @@ nav a.active {
     font-weight: bold;
     border-bottom: 2px double #ff7700;
 }
+.hero{
+    height: 90vh;
+    background-image: url('../image/Banner_Black_bg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.hero button{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff7700;
+    color: #ffffff;
+    border: solid 1px #f8f5f3;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.hero button:hover{
+    background-color: #ff0505;
+    color: #ffffff;
+}
