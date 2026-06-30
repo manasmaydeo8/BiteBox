@@ -1,88 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart - BiteBox</title>
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>BiteBox</title>
+    <!-- This is a Font Awesome link -->
     <script src="https://kit.fontawesome.com/a646d08f7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="image/favicon_io/favicon.ico">
 </head>
+
 <body>
+    <!-- This is a header Section -->
     <header>
         <nav>
-            <img src="Image/Logo.png" alt="BiteBox Logo" class="logo">
-            
+            <img src="Image/Logo.png" alt="BiteBox Logo" width="70" height="70">
             <ul>
-                <li><a href="Home.html">Home</a></li>
+                <li><a href="Home.html" class="active">Home</a></li>
                 <li><a href="Menu.html">Menu</a></li>
                 <li><a href="BitDeals.html">Bite Deals</a></li>
-                <li><a href="Cart.html" class="active"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                <li><a href="Login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i> Login</a></li>
+                <li><a href="Cart.html"><i class="fa-solid fa-cart-plus"></i></a></li>
+                <li><a href="Login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>Login</a></li>
             </ul>
         </nav>
     </header>
-
-    <section class="cart-section">
-        <h2 class="cart-title">Your Cart</h2>
-        
-        <table class="cart-table">
-            <thead>
-                <tr>
-                    <th>Item</th>
-                    <th>Price</th>
-                    <th>Qty</th>
-                    <th>Total</th>
-                    <th>Remove</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="item">
-                        <img src="Image/Cheese_Burger.jpg" alt="Cheese Burger">
-                        <div class="item-details">
-                            <h3>Cheese Burger</h3>
-                            <p>Juicy grilled burger</p>
-                        </div>
-                    </td>
-                    <td class="price">₹199</td>
-                    <td>
-                        <div class="quantity-controls">
-                            <button class="decrease">-</button>
-                            <span class="quantity">1</span>
-                            <button class="increase">+</button>
-                        </div>
-                    </td>
-                    <td class="item-total">₹199</td>
-                    <td><button class="remove-btn">✕</button></td>
-                </tr>
-                <tr>
-                    <td class="item">
-                        <img src="Image/Veg_pizza.jpg" alt="Veg Pizza">
-                        <div class="item-details">
-                            <h3>Veg Pizza</h3>
-                            <p>Delicious vegetarian pizza</p>
-                        </div>
-                    </td>
-                    <td class="price">₹149</td>
-                    <td>
-                        <div class="quantity-controls">
-                            <button class="decrease">-</button>
-                            <span class="quantity">1</span>
-                            <button class="increase">+</button>
-                        </div>
-                    </td>
-                    <td class="item-total">₹149</td>
-                    <td><button class="remove-btn">✕</button></td>
-                </tr>
-            </tbody>
-        </table>
-
-        <div class="grand-total">
-            <span>Grand Total:</span>
-            <span class="total-amount">₹149</span>
-        </div>
-
-        <button class="checkout-btn">Proceed to Checkout</button>
-    
-    </section>
-</body>
-</html>
