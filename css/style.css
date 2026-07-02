@@ -29,7 +29,6 @@ li a:hover {
     color: #ff7700;
 }
 
-/*Home work display properties in Css and type of Css selectors */
 nav li:last-child a {
     background-color: #ff0505;
     border-radius: 7px;
@@ -46,7 +45,8 @@ nav a.active {
     font-weight: bold;
     border-bottom: 2px double #ff7700;
 }
-.hero{
+
+.hero {
     height: 90vh;
     background-image: url('../image/Banner_Black_bg.jpg');
     display: flex;
@@ -54,7 +54,8 @@ nav a.active {
     align-items: center;
     color: #ffffff;
 }
-.hero button{
+
+.hero button {
     text-align: center;
     margin-top: 20px;
     padding: 10px 20px;
@@ -65,59 +66,98 @@ nav a.active {
     cursor: pointer;
 
 }
-.hero button:hover{
+
+.hero button:hover {
     background-color: #ff0505;
     color: #ffffff;
 }
-.video{
+
+.video {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 50px;
-    gap: 400x;
+    gap: 400px;
 }
-.video-box{
+
+.video-box {
     flex: 1;
 }
-.video-text{
-    flex:1;
+
+.video-text {
+    flex: 1;
 }
-.video-box video{
+
+.video-box video {
     width: 100%;
     border-radius: 20px;
 }
-.video-text h1{
+
+.video-text h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
     margin: 20px;
     color: #ff7700;
 }
-.video-text p{
+
+.video-text p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#000000;
+    color: #000000;
     font-size: 20px;
 }
-.about{
+
+.about {
     text-align: center;
     padding: 60px 20px;
     background-color: #f9f9f9;
 }
-.about h2{
-    color: rgba(255, 0, 1,0.67);
+
+.about h2 {
+    color: rgba(255, 0, 1, 0.67);
     font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
     margin: 20px;
 }
-.about p{
+
+.about p {
     margin: auto;
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     line-height: 1.9;
 }
-.menu{
+
+.menu {
     display: grid;
-    padding: 14px 20px;
-    justify-content: space-between;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .15);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.card button {
+    margin: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #ff7700;
+    color: #ffffff;
 }
