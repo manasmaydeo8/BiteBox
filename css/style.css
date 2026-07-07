@@ -197,5 +197,80 @@ nav a.active {
 header {
     position: sticky;
     top: 0;
-    background-color: #000000;
+    z-index: 1000;
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+thead {
+    background-color: #ff7700;
+    color: #ffffff;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    gap: 20px
+}
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+.remove{
+    background-color: #a8a8a8;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.remove:hover {
+    background-color: #ff0505;
+}
+.grand-total td {
+    font-weight: bold;
+    color: #000000;
+}
+.checkout {
+    background-color: #ff7700;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+.checkout:hover {
+    background-color: #ff0505;
+}
+.qt-btn button {
+    background-color: #a8a8a8;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 10px;
+}
+.qt-btn button:hover {
+    background-color: #ff0505;
+}
+.shop {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    color: #ff7700;
 }
