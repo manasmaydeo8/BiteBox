@@ -482,3 +482,72 @@ tbody tr {
     border-top: 5px solid rgb(13, 0, 255);
 
 }
+footer{
+  background-color: #000000;
+  color: white;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.foot-con{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.f-box h2 , .f-box h3 {
+  color: #dddddd;
+  margin-bottom: 15px;
+}
+.f-box ul a{
+  color: white;
+}
+.f-box ul a:hover{
+  color: #c32d00;
+}
+.f-box span{
+  color: red;
+  cursor: grab;
+}
+.f-box ul{
+  display: block;
+  list-style:none;
+  padding: 0px;
+}
+.f-box p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: move;
+}
+.foot-bottom{
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #c32d00;
+  font-size: 20px;
+}
+.social a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #000000;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 50%;
+}
+.social a:hover {
+  background: #d2d2d2;
+  color: rgb(99, 80, 80);
+}
+.social a:first-child{
+  color: rgb(255, 0, 81);
+}
+.social a:nth-child(2){
+  color: rgb(0, 17, 255);
+}
+.social a:nth-child(3){
+  color: rgb(9, 255, 0);
+}
+.social a:nth-child(4){
+  color: rgb(255, 89, 0);
+}
+.social a:last-child{
+  color: rgb(0, 217, 255);
+}
